@@ -1,0 +1,16 @@
+security-advisory-metrics/
+├─ README.md
+├─ docs/
+│ ├─ dashboard_overview.md
+│ ├─ data_preparation_excel.md
+│ ├─ modeling_powerbi.md
+│ ├─ metrics_and_dax.md
+│ ├─ faq.md
+│ └─ changelog.md
+├─ reports/
+│ └─ SecurityAdvisoryMetrics.pbix # (optional if allowed)
+├─ images/
+│ ├─ page1_exec_summary.png
+│ ├─ page2_risk_lifecycle.png
+│ └─ page3_workload_bottlenecks.png
+└─ .gitignore

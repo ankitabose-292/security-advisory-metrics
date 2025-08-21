@@ -1,0 +1,12 @@
+# OS/Editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+
+# Power BI and large binaries
+reports/*.pbix
+
+
+# Images/exports
+*.tmp

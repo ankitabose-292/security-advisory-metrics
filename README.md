@@ -26,6 +26,25 @@ End-to-end project to track and visualize Security Advisory lifecycle & risk pos
 - `status_history` (advisory_id, status, changed_at)
 - `owners` (owner_id, name, email, team)
 
+  # 📊 Security Advisory Metrics Dashboard
+
+This project tracks the lifecycle and risk posture of security advisories. Below are the main dashboard views:
+
+## 1. Home Page
+![Home Page](images/Home%20page.png)
+
+## 2. Overall Summary
+![Overall Summary](images/Overall%20Summary.png)
+
+## 3. Detailed Project Analysis
+![Detailed Project Analysis](images/Detailed%20Project%20Analysis.png)
+
+## 4. Risk Management View
+![Risk Management View](images/Risk%20Management%20View%20.png)
+
+## 5. Data & Glossary
+![Data & Glossary](images/Data%20&%20Glossary.png)
+
 **Keys**
 - `advisories.id = status_history.advisory_id`
 - `advisories.owner -> owners.owner_id`
